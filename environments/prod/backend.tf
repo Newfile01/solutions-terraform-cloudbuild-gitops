@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "cv-wordpress-476109-tfstate"
     prefix = "env/prod"
   }
 }
